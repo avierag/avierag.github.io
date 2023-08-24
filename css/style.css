@@ -3,8 +3,17 @@
     --primary: #86B817;
     --secondary: #FE8800;
     --light: #F5F5F5;
-    --dark: #14141F;
+    --dark: #14141F;      
 }
+
+#habanap{ text-align: justify;
+    background: rgba(255, 255, 255, 0.9);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    border-top: 4px solid #3fbbc0;;}
+
+
 
 .fw-medium {
     font-weight: 600 !important;
