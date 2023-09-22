@@ -1,9 +1,16 @@
 /********** Template CSS **********/
+li {
+    margin-left: 35px;
+}
+
+
+
+
 :root {
     --primary: #86B817;
     --secondary: #FE8800;
     --light: #F5F5F5;
-    --dark: #14141F;      
+    --dark: #14141F;
 }
 
 .fw-medium {
@@ -141,7 +148,7 @@
         border-bottom: 1px solid rgba(256, 256, 256, .1);
         z-index: 999;
     }
-    
+
     .sticky-top.navbar-light {
         position: fixed;
         background: #FFFFFF;
@@ -179,7 +186,7 @@
     filter: brightness(150%);
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: rgba(255, 255, 255, .5);
 }
 
@@ -326,6 +333,7 @@
 }
 
 @media (min-width: 768px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 200px;
@@ -333,6 +341,7 @@
 }
 
 @media (min-width: 992px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 300px;
@@ -443,7 +452,7 @@
     border-right: none;
 }
 
-#excdestino{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+#excdestino {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
