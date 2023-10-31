@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>UniqueCubanTrip - Cuban Travel Agency</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content name="keywords">
+    <meta content name="description">
+
+    <!-- Favicon -->
+    <link href="../../img/favicon.jpeg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+      rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../../lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../../css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+      <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark ">
+      <div class="row gx-0">
+        <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0 px-5 d-none d-lg-block">
+          <div class="d-inline-flex align-items-center" style="height: 45px;">
+            <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Matanzas,Cuba</small>
+            <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+53 53531662</small>
+            <small class="text-light"><i class="fa fa-envelope-open me-2"></i>uniquecubantrip@gmail.com</small>
+          </div>
+        </div>
+
+        <div class="col-lg-4 text-center text-lg-end">
+          <div class="d-inline-flex align-items-center" style="height: 45px;">
+            <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
+              href="../../index.html"><i class="flag-icon flag-icon-es" style="width: 70%;height: 70%;"></i></a>
+
+            <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
+              href="/lang/en/index.html"><i class="flag-icon flag-icon-gb" style="width: 70%;height: 70%;"></i></a>
+
+            <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
+              href="/lang/ru/index.html"><i class="flag-icon flag-icon-ru" style="width: 70%;height: 70%;"></i></a>
+
+            <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
+              href="/lang/fr/index.html"><i class="flag-icon flag-icon-gf " style="width: 70%;height: 70%;"></i></a>
+
+            <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
+              href="/lang/pt/index.html"><i class="flag-icon flag-icon-pt " style="width: 70%;height: 70%;"></i></a>
+
+            <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
+              href="/lang/nl/index.html"><i class="flag-icon flag-icon-nl " style="width: 70%;height: 70%;"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+      <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+        <a href class="navbar-brand p-0">
+          <h1 class="text-primary m-0"><i class="fa fa-map-marker-alt me-3"></i>Unique Cuban Trip</h1>
+          <!-- <img src="img/logo.png" alt="Logo"> -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="about.html" class="nav-item nav-link ">About us</a>
+            <a href="service.html" class="nav-item nav-link">Services</a>
+
+            <div class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+              <div class="dropdown-menu m-0">
+                <a href="testimonial.html" class="dropdown-item">Testimonials</a>
+                <a href="team.html" class="dropdown-item">Travel Guides</a>
+                <a href="paquetes.html" class="dropdown-item">Excursions</a>
+              </div>
+            </div>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+          <!-- <a href="" class="btn btn-primary rounded-pill py-2 px-4">Register</a> -->
+        </div>
+      </nav>
+
+      <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+        <div class="container py-5">
+          <div class="row justify-content-center py-5">
+            <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+              <h1 class="display-3 text-white animated slideInDown">Excursions</h1>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item"><a href="#">Excursions</a></li>
+                  <!-- <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>-->
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="section-title bg-white text-center text-primary px-3">Excursions</h6>
+          <h1 class="mb-5">Our Excursions</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Package Start -->
+    <div class="container-xxl py-1" id="habana1">
+      <div class="container">
+        <div class="row g-4 justify-content-center">
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="package-item">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="../../img/destination/habana.jpg" alt>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="package-item">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="../../img/destination/habana1.jpeg" alt>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-md-12 wow fadeInUp" data-wow-delay="0.3s">
+            <iframe class="position-relative rounded w-100 h-100"
+              src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d939876.7103774536!2d-82.48420302246839!3d23.046034578365788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d23.1335987!2d-81.2828377!4m5!1s0x88cd774cbdf600e1%3A0x4e294d7e1a770d60!2sLa%20Habana!3m2!1d23.1135925!2d-82.3665956!5e0!3m2!1sen!2scu!4v1694023491758!5m2!1sen!2scu"
+              frameborder="0" style="min-height: 300px; border:0;"
+              allowfullscreen aria-hidden="false"
+              tabindex="0"></iframe>
+          </div>
+
+          <div class="row col-lg-8 col-md-12 ">
+
+            <h4
+              style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center; margin-top: 25px;">
+              One Day Habana
+            </h4>
+
+            <p> Through this excursion the clients could explore the most interesting sites of the city, and will get in touch
+              with its real life and traditions.</p>
+            <p>
+              The one day excursion to Habana city starts with the picking up at the hotel at 8 o´clock am and will be finished
+              with the return to the hotel at around 6 pm. The drive to Habana from Varadero takes approximately two hours and
+              forty minutes.</p>
+            <p>
+              On the way to Habana there is a stopover at a view point next to the highest bridge in Cuba, to enjoy the landscape
+              of a splendid valley and the Atlantic Ocean, the clients may taste at this glamorous place the nicest pinacolada
+              ever for a price of 5 USD/Euros.</p>
+            <p>
+              Once in the city but before getting into it, a stopover, next to the Morro Castle, declared a world heritage by
+              UNESCO, to view an unforgettable panorama of the city, just few meters further another stopover this time at the
+              statue of the Christ of Habana, created by the Cuban artist Rita Longa, this is the highest view point of the city,
+              the clients could also visit the surroundings of the Cabaña fortress where there is a tobacco shop and the longest
+              cigar in the world at display, there is a good opportunity to buy cigars and rum, two of the typical Cuban products.</p>
+            <p>
+              After driving through the tunnel under the bay the arrival to the city center to start the walking trip right from
+              the majestic capitol building to the historical old Habana, visiting the four most attractive and oldest city
+              squares, this is a unique opportunity to enjoy the ambience of narrow streets and to view a breathtaking scenery.</p>
+            <p>
+              After the walking tour the clients might have one hour for lunch time, the local guide may recommend a good
+              privately owned restaurant.</p>
+            <p>
+              Last but not least a driving tour through the modern Havana with a stopover at the revolution square.
+              The tour will be ending in Habana at the 16 hours.</p>
+            <p>
+              Recommendations: to bring proper clothing and shoes to walk on the cobble stones streets of the old city, solar
+              protector and water.</p>
+            <p>
+              For the reconfirmation of the tour it’s compelling to know the name of the hotel, room number, and a photo of the
+              clients.</p>
+            <p>
+              Tour price:
+              <ul>
+                <li> Up to 4 persons <strong>180 USD/Euros.</strong> </li>
+                <li> From 5 to 6 persons <strong>250 USD/Euros.</strong></li>
+                <li> From 7 to 9 persons <strong>360 USD/Euros.</strong> </li>
+              </ul>
+            </p>
+
+            <p> <strong> Note: the price only includes transportation and guiding service</strong>.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-xxl py-1" id="habana2">
+      <div class="container">
+        <div class="row g-4 justify-content-center">
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="package-item">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="../../img/destination/habana1.jpeg" alt>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="package-item">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="../../img/destination/habana2.jpeg" alt>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-md-12 wow fadeInUp" data-wow-delay="0.3s">
+            <iframe class="position-relative rounded w-100 h-100"
+              src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d939876.7103774536!2d-82.48420302246839!3d23.046034578365788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d23.1335987!2d-81.2828377!4m5!1s0x88cd774cbdf600e1%3A0x4e294d7e1a770d60!2sLa%20Habana!3m2!1d23.1135925!2d-82.3665956!5e0!3m2!1sen!2scu!4v1694023491758!5m2!1sen!2scu"
+              frameborder="0" style="min-height: 300px; border:0;"
+              allowfullscreen aria-hidden="false"
+              tabindex="0"></iframe>
+          </div>
+
+          <div class="row col-lg-8 col-md-12 ">
+
+            <h4
+              style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center; margin-top: 25px;">
+              Habana Over Night
+            </h4>
+            <p>
+              The two days tour to Havana starts when the clients are picked up at the hotel at 9:30 am, the driving lasts
+              approximately two hours and forty minutes including a stopover for photos.</p>
+            <p>
+              The excursion includes the visit to the most interesting sites of the city and the possibility to get in touch
+              with the Cuban reality, its history and culture, the lodging can be arranged in privately owned houses in the city
+              center where the clients could hang around on their own going to bars and places of the city at night time, or make
+              use of the transportation provided to go to Tropicana night club, or to Buena vista social band show, the
+              transportation isn´t included in the price of the tour, the clients should be properly dressed to visit this places
+              mentioned and to bring a photocopy of the passport.</p>
+
+            <p>
+              During the first day the guiding tour includes the visit of the old Havana, starting the walking trip at
+              majestic Capitol building with time at disposal for photos, the walking tour includes the visit to the four
+              historical city squares and the famous bars frequented by the American writer Ernest Hemingway, as well as the
+              oldest fortress in the city.</p>
+
+            <p>
+              The clients will have one hour time for lunch in any of the privately owned restaurants suggested by the tour
+              guide The second day includes the visit to some interesting places in the city such as the handcraft market, the
+              surroundings of La Cabaña and Morro castles, the tobacco shop to see the longest cigar in the world, and time
+              for shopping, at the end the visit to the monumental statue of the Christ of Habana, from where the clients can
+              observe the city at all its large.</p>
+
+            <p>
+              Recommendations: to bring proper clothing and shoes for the walking on the cobble stone streets of the city,
+              solar protector and water.</p>
+
+            <p>
+              For the reconfirmation of the tour it´s compelling to know the name of the hotel, room number, and a photo
+              of the clients Price of the excursion.</p>
+
+            <p>
+              Tour price:
+              <ul>
+                <li> Up to four persons <strong>200 USD/Euros per day.</strong></li>
+                <li> From 5 to 6 persons <strong>300 USD/Euros per day.</strong></li>
+              </ul>
+            </p>
+
+            <p><strong>Note: the price only includes transportation and guiding service.</strong></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-xxl py-1" id="bahia">
+      <div class="container">
+        <div class="row g-4 justify-content-center">
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="package-item">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="../../img/destination/guama.jpg" alt>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="package-item">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="../../img/destination/guama2.jpg" alt>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-md-12 wow fadeInUp" data-wow-delay="0.3s">
+            <iframe class="position-relative rounded w-100 h-100"
+              src=" https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d942639.1771379262!2d-81.8189613058596!3d22.64691666331132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d23.1335987!2d-81.2828377!4m5!1s0x8f2cb86c59da1253%3A0xa1f0d979adc3ae24!2sBah%C3%ADa%20de%20Cochinos!3m2!1d22.1603717!2d-81.1684052!5e0!3m2!1sen!2scu!4v1694023811019!5m2!1sen!2scu"
+              frameborder="0" style="min-height: 300px; border:0;" allowfullscreen aria-hidden="false"
+              tabindex="0"></iframe>
+          </div>
+
+          <div class="row col-lg-8 col-md-12 ">
+
+            <h4
+              style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center; margin-top: 25px;">
+              Tour To The Caribbean
+            </h4>
+
+            <p>
+              On this Caribbean day tour the clients get much in touch with Cuban flora and fauna since the clients may visit the
+              largest crocodile breeding farm of the island, besides swimming and scuba diving in the Caribbean sea, also, as we
+              drive in land and all across the island from north to south the clients can see in the way little communities and
+              crops, the drive takes around two and a half hour, the pick up at the hotel takes place at the 8 hours. </p>
+            <p>
+              First stop takes place at the crocodile breeding farm, where crocodiles are raised and protected to avoid its
+              extinction, time at disposal to visit the breeding farm.</p>
+
+            <p>
+              Lunch isn’t included but the guide will recommend a very nice restaurant with very exotic dishes at a price which
+              do not exceed the 20 USD/Euros per person, the lunch includes, besides the main course, rice, vegetables and
+              one drink.</p>
+
+            <p>
+              After lunch, time for swimming at Caribbean Sea where the water is warmer compare to the Atlantic in Varadero,
+              It’s recommended to bring pieces of bread to feed the little fish that will come close ashore by hundreds; There is
+              an option for scuba diving at your disposal the price is of 25 USD/Euros for 40 minutes, the beginners should pay 10
+              additional Euros for specialized instructions that cannot be skipped, and it’s a very easy scuba diving at a depth
+              of 10 to 15 meters.</p>
+
+            <p>
+              A visit to a natural well, known as the fish cave is included, with time for swimming in its cool salty water. As
+              an optional activity the clients may visit the hummingbird house (the smallest bird in the world) for only 1
+              USD/Euros.</p>
+
+            <p>Return to Varadero at the 16 hours. </p>
+
+            <p>
+              Tour price:
+              <ul>
+                <li> from 2 to 4 persons <strong>180 USD/Euros.</strong></li>
+                <li> from 5 to 7 persons <strong>250 USD/Euros.</strong></li>
+                <li> from 8 to 10 persons <strong>360 USD/Euros.</strong></li>
+              </ul>
+            </p>
+
+            <p><strong>Note: the price only includes transportation and guiding service.</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-xxl py-1" id="soroa">
+      <div class="container">
+        <div class="row g-4 justify-content-center">
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="package-item">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="../../img/destination/vinales3.jpeg" alt>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="package-item">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="../../img/destination/vinales.jpg" alt>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-md-12 wow fadeInUp" data-wow-delay="0.3s">
+            <iframe class="position-relative rounded w-100 h-100"
+              src=" https://www.google.com/maps/embed?pb=!1m32!1m12!1m3!1d1883022.474612807!2d-83.82458746537316!3d22.810678461441643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m17!3e0!4m3!3m2!1d23.1336038!2d-81.28278449999999!4m5!1s0x88ccdc18d28d5093%3A0xd54dace15d7df01e!2sSoroa!3m2!1d22.7703056!2d-82.9985343!4m5!1s0x88cb5174b8f5869d%3A0xcf34f73ca7340cf7!2sVi%C3%B1ales%20Valley%2C%20Cordillera%20de%20Guaniguanico%2C%20Vinales!3m2!1d22.6051793!2d-83.7255639!5e0!3m2!1sen!2scu!4v1694024094376!5m2!1sen!2scu"
+              frameborder="0" style="min-height: 300px; border:0;" allowfullscreen aria-hidden="false"
+              tabindex="0"></iframe>
+          </div>
+
+          <div class="row col-lg-8 col-md-12 ">
+
+            <h4
+              style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center; margin-top: 25px;">
+              Soroa Orchid Park, Viñales Valley
+            </h4>
+
+            <p>
+              Pick up time at the lobby of the hotel at the 6 hours, the duration of the driving trip is of approximately 4 hours,
+              with a stopover in the way. </p>
+
+            <p>
+              Half way from the last stop, one of the highlights of this excursion is the visited, Soroa Orchid sanctuary, a park
+              where the client can observe a very large variety of orchids and other exotic plants, this paradisiacal site is
+              located on the Rosario mountain range, in the same place the clients can visit the Soroa look out and the rainbow
+              water fall, in this last site the clients could swim in the fresh water of the river at a price of 5 USD/Euros. </p>
+
+            <p>
+              The last stop takes place at viñales valley, the well called the Cuban garden, with an impressive view of Los
+              Organos mountain range which surrounds the valley and the reason why this place is extraordinarily beautiful and
+              mysterious, there is a visit to a cave being inhabited by aboriginals back in times, and a boat trip along the
+              underground river inside the cave, there is also a visit to a tobacco plantation where the best tobacco in the world
+              is cultivated, the clients will also learn about process of rolling cigars and will even try one if desired, with
+              shopping opportunity.</p>
+
+            <p>
+              Lunch in a local restaurant with traditional Cuban dishes at a price of 15 USD/Euros per person
+              Return to the hotel at approximately the 21 hours. </p>
+
+            <p>
+              For the reconfirmation of the tour it´s compelling to know the name of the hotel, room number, and a photo of the
+              clients. </p>
+
+            <p>
+              Tour price:
+              <ul>
+                <li> Up to 4 persons <strong>480 USD/Euros.</strong></li>
+                <li> Up to 6 persons <strong>600 USD/Euros.</strong></li>
+                <li> Up to 9 persons <strong>800 USD/Euros.</strong></li>
+              </ul>
+            </p>
+
+            <p><strong> Note: the price only includes transportation and guiding service.</strong></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-xxl py-1" id="ancon">
+      <div class="container">
+        <div class="row g-4 justify-content-center">
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="package-item">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="../../img/destination/cienfuegos.jpg" alt>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="package-item">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="../../img/destination/trinidad.jpg" alt>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-md-12 wow fadeInUp" data-wow-delay="0.3s">
+            <iframe class="position-relative rounded w-100 h-100"
+              src="https://www.google.com/maps/embed?pb=!1m38!1m12!1m3!1d773426.2188085819!2d-80.99093716547469!3d22.04233376099949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m23!3e0!4m3!3m2!1d23.1336038!2d-81.28278449999999!4m5!1s0x8f2b37f78a232747%3A0x16eb874f8722a975!2sCienfuegos!3m2!1d22.1599753!2d-80.4437781!4m5!1s0x8f2afb55c5d3af2f%3A0xde6fe122775b5d54!2sPlaya%20Ancon!3m2!1d21.7405008!2d-80.01296789999999!4m5!1s0x8f2ae442eda9e0c5%3A0x67eb7506b2b15089!2sTrinidad!3m2!1d21.7960343!2d-79.98081429999999!5e0!3m2!1sen!2scu!4v1694024248552!5m2!1sen!2scu"
+              frameborder="0" style="min-height: 300px; border:0;" allowfullscreen aria-hidden="false"
+              tabindex="0"></iframe>
+          </div>
+
+          <div class="row col-lg-8 col-md-12 ">
+
+            <h4
+              style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center; margin-top: 25px;">
+              Two Cities One Beach
+            </h4>
+            <p>
+              Pick up time at the 6 hours at the hotel lobby and it’s over with the arrival to the hotel at the 20 hours.
+              Following this order the visit of Cienfuegos city, beach time at ancon peninsula, and the visit to Trinidad city.
+            </p>
+
+            <p>
+              Cienfuegos also called the ¨Perl of the south¨ is located on the south coasts with a very strong French influence in
+              its culture and architecture, the city tour starts at its main avenue and continue to the center park, in all this
+              area the most important buildings and attractions of the city could be observed, like the statue of the famous Cuban
+              musician Beny More, known as the king of the salsa, the majestic former Governor palace, the arc of triumph, Tomas
+              Terry Theater, and the Cathedral of the immaculate conception, among others, after the walking , the tour continues
+              by car all along the main avenue in direction to punta gorda peninsula to enjoy the view of the bay and the former
+              homes of the rich French people that lived in the city centuries ago, like the famous Valle Palace. </p>
+
+            <p>
+              Next stop at Ancon beach in the surroundings of Trinidad city and 71 kilometers away from Cienfuegos, one of the
+              most beautiful beaches of the Caribbean coasts, beach time at disposal, because of the lack of public showers, the
+              clients might use their own transportation for changing clothes. </p>
+
+            <p>
+              For lunch its recommended a buffet restaurant near the beach on the way to Trinidad city for a price of 15 Euros,
+              drinks not included. </p>
+
+            <p>
+              After the relaxing swimming and lunch time, the excursion continues to Trinidad, considered by foreigners the second
+              most popular city in Cuba after Havana, the historical center of Trinidad was declared by UNESCO a world heritage in
+              1982, and it keeps its original aspect, people generally say that it’s a city where the time stopped. Walking
+              through the cobble stones of the city is like going back in time, the most important site of the city is the major
+              square ¨plaza Mayor¨ and the buildings that surround the square, the former homes of counts and marquises. After the
+              walking tour in Trinidad, return to varadero. </p>
+
+            <p>
+              For the reconfirmation of the tour it´s compelling to know the name of the hotel, room number, and a photo of the
+              clients. </p>
+
+            <p>
+              Tour price:
+              <ul>
+                <li> Up to 4 persons <strong>480 USD/Euros.</strong></li>
+                <li> Up to 6 persons <strong>600 USD/Euros.</strong></li>
+                <li> Up to 9 persons <strong>800 USD/Euros.</strong></li>
+              </ul>
+            </p>
+
+            <p><strong>Note: the price only includes transportation and guiding service</strong>.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-xxl py-1" id="nicho">
+      <div class="container">
+        <div class="row g-4 justify-content-center">
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="package-item">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="../../img/destination/nicho.jpg" alt>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="package-item">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="../../img/destination/cienfuegos.jpg" alt>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-md-12 wow fadeInUp" data-wow-delay="0.3s">
+            <iframe class="position-relative rounded w-100 h-100"
+              src="https://www.google.com/maps/embed?pb=!1m38!1m12!1m3!1d1414058.367435631!2d-81.52645929094385!3d22.48149294608656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m23!3e0!4m3!3m2!1d23.1336038!2d-81.28278449999999!4m5!1s0x8f2b20b579264f33%3A0x7229a2a14946ed87!2sEl%20Nicho!3m2!1d22.0323218!2d-80.1212235!4m5!1s0x8f2ae442eda9e0c5%3A0x67eb7506b2b15089!2sTrinidad!3m2!1d21.7960343!2d-79.98081429999999!4m5!1s0x8f2b37f78a232747%3A0x16eb874f8722a975!2sCienfuegos!3m2!1d22.1599753!2d-80.4437781!5e0!3m2!1sen!2scu!4v1694024389915!5m2!1sen!2scu"
+              frameborder="0" style="min-height: 300px; border:0;" allowfullscreen aria-hidden="false"
+              tabindex="0"></iframe>
+          </div>
+
+          <div class="row col-lg-8 col-md-12 ">
+
+            <h4
+              style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center; margin-top: 25px;">
+              Nicho Water Fall, Trinidad and Cienfuegos
+            </h4>
+
+            <p>
+              Visiting the national park ¨EL NICHO¨ is an incredible adventure, where clients can swim and shower with the waters
+              of a magnificent water fall surrounded by exuberant vegetation, and the visit of Trinidad and Cienfuegos to get in
+              touch with the history and the culture of two very different cities.</p>
+
+            <p>
+              Pick up time at 05:30 hours at the hotel lobby, the drive to first stop takes approximately 4 hours, once in the
+              place in order to reach the water fall, there is a walking trip along a path on the mountain, for that reason the
+              clients must bring proper clothing and shoes, the temperature of the water is very fresh in summer and cool in
+              winter, the visit to the place takes around 2 hours.</p>
+
+            <p>
+              For lunch it’s recommended a buffet restaurant in the way to Trinidad at a cost of 15 USD/Euros per persons, drinks
+              not included in the price. </p>
+
+            <p>
+              Continuation to Trinidad city for a walking tour which lasts 2 hours, walking on the cobble stones streets around
+              the historical center is like going back in time, the most important site of the city is the major square ¨plaza
+              Mayor¨ and the buildings that surround the square, the former homes of counts and marquises, nowadays museums and
+              cultural projects that could be visited by the clients. </p>
+
+            <p>
+              On the way back in direction to Cienfuegos city there is short stop to by fresh local fruits.</p>
+
+            <p>
+              Cienfuegos also called the ¨Perl of the south¨ is located on the south coast’s with a very strong French influence
+              in its culture and architecture, the city tour starts at its main avenue and continue to the center park, in all
+              this area the most important buildings and attractions of the city could be observed, like the statue of the famous
+              Cuban musician Beny More, known as the king of the salsa, the majestic former Governor palace, the arc of triumph,
+              Tomas Terry Theater, and the Cathedral of the immaculate conception, among others, after the walking , the tour
+              continues by car all along the main avenue in direction to punta gorda peninsula to enjoy the view of the bay and
+              the former homes of the rich French people that lived in the city centuries ago, like the famous Valle Palace, the
+              walking tour takes one and a half hour. </p>
+
+            <p>
+              Tour price:
+              <ul>
+                <li> Up to 4 persons <strong>480 USD/Euros.</strong></li>
+                <li> Up to 6 persons <strong>600 USD/Euros.</strong></li>
+                <li> Up to 9 persons <strong>800 USD/Euros.</strong></li>
+              </ul>
+            </p>
+
+            <p> <strong> Note: the price only includes transportation and guiding service.</strong></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-xxl py-1" id="matanzas">
+      <div class="container">
+        <div class="row g-4 justify-content-center">
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="package-item">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="../../img/destination/matanzas.jpeg" alt>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="package-item">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="../../img/destination/matanzas2.jpg" alt>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-md-12 wow fadeInUp" data-wow-delay="0.3s">
+            <iframe class="position-relative rounded w-100 h-100"
+              src=" https://www.google.com/maps/embed?pb=!1m32!1m12!1m3!1d234906.01392707258!2d-81.59739225982703!3d23.08221183228067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m17!3e0!4m3!3m2!1d23.1336038!2d-81.28278449999999!4m5!1s0x88d2fc1791f1e053%3A0xe25d9e54e9bacf86!2sMatanzas!3m2!1d23.0303395!2d-81.5322149!4m5!1s0x88d2fd55fc800f31%3A0x90fd2555fe01335a!2sValle%20Yumur%C3%AD%2C%20Matanzas!3m2!1d23.0603816!2d-81.5824188!5e0!3m2!1sen!2scu!4v1694024490968!5m2!1sen!2scu"
+              frameborder="0" style="min-height: 300px; border:0;" allowfullscreen aria-hidden="false"
+              tabindex="0"></iframe>
+          </div>
+
+          <div class="row col-lg-8 col-md-12 ">
+
+            <h4
+              style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center; margin-top: 25px;">
+              Matanzas City, Yumury Valley
+            </h4>
+            <p>
+              Pick up time at the hotel lobby at 9 am, the most important touristic places around Matanzas city will be visited on
+              this tour; this beautiful city is known as the ¨Athens of Cuba¨ due to its great economic and cultural development
+              during the XIX century. </p>
+
+            <p>
+              The first place to be visited will be Mapita beach where there is an option for scuba diving accompanied by a
+              specialized guide at a price 30 USD/Euros. </p>
+
+            <p>
+              Later there is time for swimming in a natural cave with crystalline cool water, at a price of 5 USD/Euros
+              Next stop will be at Canimar River where the clients have the possibility to drive themselves speeding boats
+              along the river, driving license isn’t required, the boats have a capacity for 4 persons, and the cost is 35
+              USD/Euros
+              per boat, along the river a tropical humid wood can be closely observed. </p>
+
+            <p>
+              Last but not least Matanzas city tour, most of it by walking to get in touch with the architecture, history
+              and culture of the city, after the walking tour and by car there is a visit to the highest view point in the city
+              from where the clients can observe the city and the second most beautiful valley in Cuba. </p>
+
+            <p>
+              If by any chance the scuba diving isn’t possible to be accomplished, then the Bellamar cave will be visited,
+              this place is considered the oldest touristic site of the island of Cuba, it’s being opened to public for 150
+              years, proper clothing and shoes recommended, the relative humidity is of almost 100 % and it might be slippery
+              somewhere, the price to visit the cave is of 5 USD/Euros per person and 5 USD/Euros for the right to bring the photo
+              camera.
+            </p>
+
+            <p>
+              Lunch isn’t included but the tour guide may suggest a good restaurant in the city. </p>
+
+            <p> Return to the hotel at around 3:00 pm. </p>
+
+            <p>
+              For the reconfirmation of the tour it´s compelling to know the name of the hotel, room number, and a
+              photo of the clients. </p>
+
+            <p>
+              Tour price :
+              <ul>
+                <li> Up to 4 persons <strong>130 USD/Euros.</strong></li>
+                <li> Up to 6 persons <strong>180 USD/Euros.</strong></li>
+                <li> Up to 9 persons <strong>270 USD/Euros.</strong></li>
+              </ul>
+            </p>
+
+            <p> <strong>Note: the price only includes transportation and guiding service.</strong> </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Company</h4>
+            <a class="btn btn-link" href="about.html">About us</a>
+            <a class="btn btn-link" href="contact.html">Contact</a>
+            <!-- 
+          <a class="btn btn-link" href="">Privacy Policy</a>
+          <a class="btn btn-link" href="">Terms & Condition</a>
+          <a class="btn btn-link" href="">FAQs & Help</a>
+          -->
+          </div>
+          <div class="col-lg-3 col-md-6 ">
+            <h4 class="text-white mb-3">Contact</h4>
+            <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Matanzas, Cuba</p>
+            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+53 5 3531662</p>
+            <p class="mb-2"><i class="fa fa-envelope me-3"></i>uniquecubantrip@gmail.com</p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social"
+                href="https://chat.whatsapp.com/CU6cem0i4EZEPFG40AHUJB"><i
+                  class="bi bi-whatsapp"></i></a>
+              <a class="btn btn-outline-light btn-social"
+                href="https://t.me/+PatnmygdGo1jYTY5"><i
+                  class="bi bi-telegram"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Gallery</h4>
+            <div class="row g-2 pt-2">
+              <div class="col-4">
+                <img class="img-fluid bg-light p-1" src="../../img/destination/caribe.jpg" alt>
+              </div>
+              <div class="col-4">
+                <img class="img-fluid bg-light p-1" src="../../img/destination/cienfuegos.jpg" alt>
+              </div>
+              <div class="col-4">
+                <img class="img-fluid bg-light p-1" src="../../img/destination/habana.jpg" alt>
+              </div>
+              <div class="col-4">
+                <img class="img-fluid bg-light p-1" src="../../img/destination/nicho.jpg" alt>
+              </div>
+              <div class="col-4">
+                <img class="img-fluid bg-light p-1" src="../../img/destination/trinidad.jpg" alt>
+              </div>
+              <div class="col-4">
+                <img class="img-fluid bg-light p-1" src="../../img/destination/vinales.jpg" alt>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-3 col-md-6">
+          <h4 class="text-white mb-3">Donaciones</h4>
+          <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+      </div>-->
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="#">Unique Cuban Trip</a>, All Right Reserved.
+
+              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+              Designed By <a class="border-bottom"
+                href="https://www.linkedin.com/in/alain-vg-06b59a123/">AlainVG</a>
+            </div>
+            <!--<div class="col-md-6 text-center text-md-end">
+              <div class="footer-menu">
+                  <a href="">Home</a>
+                  <a href="">Cookies</a>
+                  <a href="">Help</a>
+                  <a href="">FQAs</a>
+              </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../lib/wow/wow.min.js"></script>
+    <script src="../../lib/easing/easing.min.js"></script>
+    <script src="../../lib/waypoints/waypoints.min.js"></script>
+    <script src="../../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../../lib/tempusdominus/js/moment.min.js"></script>
+    <script src="../../lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="../../lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../../js/main.js"></script>
+  </body>
+
+</html>

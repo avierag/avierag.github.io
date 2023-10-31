@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <title>UniqueCubanTrip - Cuban Travel Agency</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content name="keywords">
+        <meta content name="description">
+
+        <!-- Favicon -->
+        <link href="../../img/favicon.jpeg" rel="icon">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+            rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="../../lib/animate/animate.min.css" rel="stylesheet">
+        <link href="../../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="../../lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="../../css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark ">
+            <div class="row gx-0">
+                <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0 px-5 d-none d-lg-block">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Matanzas,Cuba</small>
+                        <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+53 53531662</small>
+                        <small class="text-light"><i class="fa fa-envelope-open me-2"></i>uniquecubantrip@gmail.com</small>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
+                            href="../../index.html"><i class="flag-icon flag-icon-es" style="width: 70%;height: 70%;"></i></a>
+
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
+                            href="/lang/en/index.html"><i class="flag-icon flag-icon-gb" style="width: 70%;height: 70%;"></i></a>
+
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
+                            href="/lang/ru/index.html"><i class="flag-icon flag-icon-ru" style="width: 70%;height: 70%;"></i></a>
+
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
+                            href="/lang/fr/index.html"><i class="flag-icon flag-icon-gf " style="width: 70%;height: 70%;"></i></a>
+
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
+                            href="/lang/pt/index.html"><i class="flag-icon flag-icon-pt " style="width: 70%;height: 70%;"></i></a>
+
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
+                            href="/lang/it/index.html"><i class="flag-icon flag-icon-it" style="width: 70%;height: 70%;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><i class="fa fa-map-marker-alt me-3"></i>Unique Cuban Trip</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link ">About us</a>
+                        <a href="service.html" class="nav-item nav-link">Services</a>
+
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="testimonial.html" class="dropdown-item">Testimonials</a>
+                                <a href="team.html" class="dropdown-item">Travel Guides</a>
+                                <a href="paquetes.html" class="dropdown-item">Excursions</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <!-- <a href="" class="btn btn-primary rounded-pill py-2 px-4">Register</a> -->
+                </div>
+            </nav>
+
+            <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+                <div class="container py-5">
+                    <div class="row justify-content-center py-5">
+                        <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                            <h1 class="display-3 text-white mb-3 animated slideInDown">Enjoy your holidays with us
+                            </h1>
+                            <p class="fs-4 text-white mb-4 animated slideInDown">We invite you to tour Cuba</p>
+                            <div class="position-relative w-75 mx-auto animated slideInDown">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="img-fluid position-absolute w-100 h-100" src="../../img/about.jpg" alt
+                                style="object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <h6 class="section-title bg-white text-start text-primary pe-3">About us</h6>
+                        <h1 class="mb-4">Welcome to <span class="text-primary">Unique Cuban Trip</span></h1>
+                        <p>
+                            <p>
+                                We offer a great deal of travel packages to explore the diversity and charming of this Caribbean
+                                island. Since the vibrant Havana city with its lively night life and beautiful colonial
+                                architecture to the white sands and crystal waters of Varadero and Trinidad, These travel packages
+                                also provide personalized services to please the necessities and preferences of each client, from
+                                lodging in hotels and privately owned residencies to local tour guides and nongovernmental
+                                transportation.
+                            </p>
+
+                            <p> Explore the amazing Cuban culture, music, history and nature, provided by a local travel agency
+                                and bring home the memories of an unforgettable vacation. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- Service Start -->
+            <div class="container-xxl py-5">
+                <div class="container">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h6 class="section-title bg-white text-center text-primary px-3">Services</h6>
+                        <h1 class="mb-5" ;">Our services</h1>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s" style="width: 100%;"">
+                            <div class=" service-item rounded pt-3">
+                                <div class="p-4">
+                                    <i style="display: flex;justify-content:center;"
+                                        class="fa fa-3x fa-globe text-primary mb-4"></i>
+                                    <h5 style="text-align: center;">Travel Guides</h5>
+                                    <p style="text-align: center;">
+                                        We take care of accompanying and assisting tourists during their visit to a tourist
+                                        destination. We have in-depth knowledge of the destination and its goal is to provide
+                                        information and guidance to visitors so that they can enjoy their experience to the
+                                        fullest.
+                                        <br>
+                                        Provide detailed information on the tourist, historical and cultural attractions of the
+                                        destination.
+                                        <br>
+                                        Accompany the group of tourists during visits to places of interest and offer enriching
+                                        explanations about them.
+                                        <br>
+                                        Coordinate activities and transportation for the tourist group.
+                                        <br>
+                                        Solve problems and unforeseen situations that may arise during the trip. <br>
+                                        Provide recommendations on restaurants, accommodations and other activities in the
+                                        destination.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Service End -->
+
+            <!-- Package Start -->
+            <div class="container-xxl py-5" id="excursiones"">
+                <div class="container">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h6 class="section-title bg-white text-center text-primary px-3">Excursions</h6>
+                        <h1 class="mb-5">Our Excursions</h1>
+                    </div>
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="package-item">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid" src="../../img/destination/habana.jpg" alt>
+                                </div>
+                                <div class="d-flex border-bottom">
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-map-marker-alt text-primary me-2"></i>One Day Habana </small>
+                                    <!-- 
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                            -->
+                                </div>
+                                <div class="text-center p-4">
+                                    <!-- <h3 class="mb-0">$149.00</h3>-->
+                                    <div class="mb-3">
+                                        <!-- 
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small> -->
+                                    </div>
+                                    <p>This is a one day tour that will take you to the most iconic and beautiful places in the
+                                        city, you will get to know the reality of this town and its customs. </p>
+                                    <div class="d-flex justify-content-center mb-2">
+                                        <a href="habana1.html#habana1" class="btn btn-sm btn-primary px-3 border-end"
+                                            style="border-radius: 30px 30px 30px 30px;">Read more</a>
+                                        <!-- <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="package-item">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid" src="../../img/destination/habana2.jpeg" alt>
+                                </div>
+                                <div class="d-flex border-bottom">
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-map-marker-alt text-primary me-2"></i>Habana Over Night </small>
+                                    <!--
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                            -->
+                                </div>
+                                <div class="text-center p-4">
+                                    <!--  <h3 class="mb-0">$139.00</h3> -->
+                                    <div class="mb-3">
+                                        <!-- 
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small> 
+                                -->
+                                    </div>
+                                    <p> This is a two-day tour that will take you to the most iconic and beautiful places in the
+                                        city, you will learn about the reality of this town and its customs, you will be able to
+                                        stay in the center of the city and visit places for your enjoyment and fun.
+                                    </p>
+                                    <div class="d-flex justify-content-center mb-2">
+                                        <a href="habana2.html#habana2" class="btn btn-sm btn-primary px-3 border-end"
+                                            style="border-radius: 30px 30px 30px 30px;">Read more</a>
+                                        <!-- <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="package-item">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid" src="../../img/destination/guama.jpg" alt>
+                                </div>
+                                <div class="d-flex border-bottom">
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-map-marker-alt text-primary me-2"></i>Tour To The Caribbean</small>
+                                    <!--
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                           -->
+                                </div>
+                                <div class="text-center p-4">
+                                    <!-- <h3 class="mb-0">$189.00</h3> -->
+                                    <div class="mb-3">
+                                        <!--
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                -->
+                                    </div>
+                                    <p>During this excursion you will visit the interior of Cuba where you will be able to
+                                        become familiar with the Cuban flora and fauna, you will be able to visit a crocodile
+                                        farm, you will also be able to swim and/or dive in the Caribbean Sea.</p>
+                                    <div class="d-flex justify-content-center mb-2">
+                                        <a href="bahia.html#bahia" class="btn btn-sm btn-primary px-3 border-end"
+                                            style="border-radius: 30px 30px 30px 30px;">Read more</a>
+                                        <!--  <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="package-item">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid" src="../../img/destination/cienfuegos.jpg" alt>
+                                </div>
+                                <div class="d-flex border-bottom">
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-map-marker-alt text-primary me-2"></i>Two Cities One Beach </small>
+                                    <!-- 
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                            -->
+                                </div>
+                                <div class="text-center p-4">
+                                    <!-- <h3 class="mb-0">$189.00</h3> -->
+                                    <div class="mb-3">
+                                        <!-- 
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                -->
+                                    </div>
+                                    <p>You will visit the city of Cienfuegos, then Ancon Beach where you can take a bath and end
+                                        up visiting the city of Trinidad.</p>
+                                    <div class="d-flex justify-content-center mb-2">
+                                        <a href="trinidad.html#ancon" class="btn btn-sm btn-primary px-3 border-end"
+                                            style="border-radius: 30px 30px 30px 30px;">Read more</a>
+                                        <!--  <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="package-item">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid" src="../../img/destination/nicho.jpg" alt>
+                                </div>
+                                <div class="d-flex border-bottom">
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-map-marker-alt text-primary me-2"></i>Nicho Water Fall, Trinidad and
+                                        Cienfuegos </small>
+                                    <!--
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                             -->
+                                </div>
+                                <div class="text-center p-4">
+                                    <!-- <h3 class="mb-0">$189.00</h3> -->
+                                    <div class="mb-3">
+                                        <!--  
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                -->
+                                    </div>
+                                    <p>Visit to El Nicho National Park, where you can see its waterfalls and swim in its waters.
+                                        Dinner in the City of Trinidad and the City of Cienfuegos</p>
+                                    <div class="d-flex justify-content-center mb-2">
+                                        <a href="nicho.html#nicho" class="btn btn-sm btn-primary px-3 border-end"
+                                            style="border-radius: 30px 30px 30px 30px;">Read more</a>
+                                        <!--  <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="package-item">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid" src="../../img/destination/vinales.jpg" alt>
+                                </div>
+                                <div class="d-flex border-bottom">
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-map-marker-alt text-primary me-2"></i>Soroa Orchid Park, Viñales Valley</small>
+                                </div>
+                                <div class="text-center p-4">
+                                    <div class="mb-3">
+                                    </div>
+                                    <p>It is one of the best known and most attractive areas of Cuba, characterized by its
+                                        spectacular natural beauty and conservation of the environment in which it is found
+                                        everywhere.
+                                    </p>
+                                    <div class="d-flex justify-content-center mb-2">
+                                        <a href="soroa.html#soroa" class="btn btn-sm btn-primary px-3 border-end"
+                                            style="border-radius: 30px 30px 30px 30px;">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="package-item">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid" src="../../img/destination/matanzas.jpeg" alt>
+                                </div>
+                                <div class="d-flex border-bottom">
+                                    <small class="flex-fill text-center border-end py-2"><i
+                                            class="fa fa-map-marker-alt text-primary me-2"></i>Matanzas City, Yumury Valley
+                                    </small>
+                                </div>
+                                <div class="text-center p-4">
+                                    <div class="mb-3">
+                                    </div>
+                                    <p>You will visit the most interesting tourist places of this beautiful city, well called
+                                        "The Athens of Cuba" for its great cultural development in the 19th century. The first
+                                        place to be visited will be the "Mapita" beach where you can go diving with a
+                                        specialized guide.
+                                    </p>
+                                    <div class="d-flex justify-content-center mb-2">
+                                        <a href="matanzas.html#matanzas" class="btn btn-sm btn-primary px-3 border-end"
+                                            style="border-radius: 30px 30px 30px 30px;">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Package End -->
+
+            <!-- Footer Start -->
+            <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="text-white mb-3">Company</h4>
+                            <a class="btn btn-link" href="about.html">About us</a>
+                            <a class="btn btn-link" href="contact.html">Contact</a>
+                            <!-- 
+                <a class="btn btn-link" href="">Privacy Policy</a>
+                <a class="btn btn-link" href="">Terms & Condition</a>
+                <a class="btn btn-link" href="">FAQs & Help</a>
+                -->
+                        </div>
+                        <div class="col-lg-3 col-md-6 ">
+                            <h4 class="text-white mb-3">Contact</h4>
+                            <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Matanzas, Cuba</p>
+                            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+53 5 3531662</p>
+                            <p class="mb-2"><i class="fa fa-envelope me-3"></i>uniquecubantrip@gmail.com</p>
+                            <div class="d-flex pt-2">
+                                <a class="btn btn-outline-light btn-social"
+                                    href="https://chat.whatsapp.com/CU6cem0i4EZEPFG40AHUJB"><i
+                                        class="bi bi-whatsapp"></i></a>
+                                <a class="btn btn-outline-light btn-social"
+                                    href="https://t.me/+PatnmygdGo1jYTY5"><i
+                                        class="bi bi-telegram"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="text-white mb-3">Gallery</h4>
+                            <div class="row g-2 pt-2">
+                                <div class="col-4">
+                                    <img class="img-fluid bg-light p-1" src="../../img/destination/caribe.jpg" alt>
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid bg-light p-1" src="../../img/destination/cienfuegos.jpg" alt>
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid bg-light p-1" src="../../img/destination/habana.jpg" alt>
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid bg-light p-1" src="../../img/destination/nicho.jpg" alt>
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid bg-light p-1" src="../../img/destination/trinidad.jpg" alt>
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid bg-light p-1" src="../../img/destination/vinales.jpg" alt>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Donaciones</h4>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            </div>-->
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                                &copy; <a class="border-bottom" href="#">Unique Cuban Trip</a>, All Right Reserved.
+
+                                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                                Designed By <a class="border-bottom"
+                                    href="https://www.linkedin.com/in/alain-vg-06b59a123/">AlainVG</a>
+                            </div>
+                            <!--<div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a href="">Home</a>
+                        <a href="">Cookies</a>
+                        <a href="">Help</a>
+                        <a href="">FQAs</a>
+                    </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+
+            <!-- Back to Top -->
+            <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+            <!-- JavaScript Libraries -->
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="../../lib/wow/wow.min.js"></script>
+            <script src="../../lib/easing/easing.min.js"></script>
+            <script src="../../lib/waypoints/waypoints.min.js"></script>
+            <script src="../../lib/owlcarousel/owl.carousel.min.js"></script>
+            <script src="../../lib/tempusdominus/js/moment.min.js"></script>
+            <script src="../../lib/tempusdominus/js/moment-timezone.min.js"></script>
+            <script src="../../lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+            <!-- Template Javascript -->
+            <script src="../../js/main.js"></script>
+        </body>
+
+    </html>
